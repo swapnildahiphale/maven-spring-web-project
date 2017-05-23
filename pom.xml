@@ -132,7 +132,22 @@
 						<format>html</format>
 						<format>xml</format>
 					</formats>
+					<check>
+						<haltOnFailure>true</haltOnFailure>
+						<lineRate>95</lineRate>
+						<branchRate>95</branchRate>
+						<totalLineRate>95</totalLineRate>
+						<totalBranchRate>95</totalBranchRate>
+					</check>
 				</configuration>
+				<executions>
+					<execution>
+						<phase>verify</phase>
+						<goals>
+							<goal>check</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 			
 			
