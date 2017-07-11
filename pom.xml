@@ -134,10 +134,10 @@
 					</formats>
 					<check>
 						<haltOnFailure>true</haltOnFailure>
-						<lineRate>95</lineRate>
-						<branchRate>95</branchRate>
-						<totalLineRate>95</totalLineRate>
-						<totalBranchRate>95</totalBranchRate>
+						<lineRate>0</lineRate>
+						<branchRate>0</branchRate>
+						<totalLineRate>0</totalLineRate>
+						<totalBranchRate>0</totalBranchRate>
 					</check>
 				</configuration>
 				<executions>
